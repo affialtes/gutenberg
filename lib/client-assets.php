@@ -1431,6 +1431,7 @@ function gutenberg_editor_scripts_and_styles( $hook ) {
 		sprintf( '/wp/v2/%s/%s?context=edit', $rest_base, $post->ID ),
 		sprintf( '/wp/v2/types/%s?context=edit', $post_type ),
 		sprintf( '/wp/v2/users/me?post_type=%s&context=edit', $post_type ),
+		sprintf( '/wp/v2/posts/%s/autosaves?context=edit', $post->ID ),
 	);
 
 	/**
